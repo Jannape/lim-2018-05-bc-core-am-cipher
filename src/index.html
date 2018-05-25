@@ -1,18 +1,36 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <input id="mensaje">
-    <input id="boton" type="submit">
-    <input id="offset">
-    <p id="respuesta"></p>
 
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
-</html>
+
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+  <H1>CHATEA SEGURO</H1>
+  <label>MENSAJE</label><br>
+  <textarea class="input" id="mensaje"></textarea>
+  <br>
+  <label>key</label><BR>
+  <input class="input" id="offset">
+  <div id="root">
+  <input class="loginbutton" id="boton" value="cifrar" type="submit">
+  <input class="loginbutton"id="boton2"  value="descifrar" type="submit">
+  <br></div>
+  <textare>RESULTADO  </textare> <br>
+  <textarea  id="respuesta"></textarea>
+  <br>
+
+ 
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html> 
