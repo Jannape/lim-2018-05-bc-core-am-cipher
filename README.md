@@ -1,4 +1,13 @@
 # Cifrado César
+##INTRODUCCION
+Titulo : CHAT SEGURO
+
+Este Proyecto esta hecho en HTML5 Y CSS JUNTO A JAVASCRIPT su funcion principal es cifrar 
+un mensaje  esto incluye(signos y números) no incluye letras tildadas,  deacuerdo a los espacios
+que ingrese el usario.
+
+Su finalidad principal es darle seguridad a tus mensajes con el cifrado Cesar
+
 
 ## Preámbulo
 
@@ -318,3 +327,4 @@ tu proyecto, teniendo en cuenta el desarrollo de tus _habilidades blandas_:
 ## Recursos (Q & A)
 
 El código de [sli.do](https://www.sli.do/) para el proyecto 1 : U414
+
