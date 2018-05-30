@@ -1,17 +1,21 @@
-let string, offset;
-document.getElementById("boton").addEventListener('click', function () {
-    offset = document.getElementById("offset").value;
-    string = document.getElementById("mensaje").value;
-    let rsptaUno = cipher.encode(offset, string);
-    let respuesta = document.getElementById("respuesta");
-    respuesta.innerHTML = rsptaUno;
+
+document.getElementById('boton').addEventListener('click', function() {
+let offset =parseInt(document.getElementById('offset').value);
+let string = document.getElementById("mensaje").value;
+
+
+document.getElementById('respuesta').innerHTML = (cipher.createCipherWithOffset(offset)).encode(string);
+
+
+
 });
 
-document.getElementById("boton2").addEventListener('click', function () {
-    offset = document.getElementById("offset").value;
-    string = document.getElementById("mensaje").value;
-    let rsptaDos = cipher.decode(offset, string);
-    let respuesta = document.getElementById("respuesta");
-    respuesta.innerHTML = rsptaDos;
+document.getElementById('boton2').addEventListener('click',function() {
+    let offset = parseInt(document.getElementById('offset').value);
+    let string = document.getElementById('mensaje').value;
+    document.getElementById('respuesta').innerHTML = (cipher.createCipherWithOffset(offset)).decode(string);
+
+
+  
 });
 

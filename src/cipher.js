@@ -1,5 +1,5 @@
 window.cipher = {
-  encode: (offset, string) => {
+  encode (offset, string) {
     offset = offset % 26;
     let arreglo = new Array();
     arreglo = string.split("");
@@ -21,10 +21,8 @@ window.cipher = {
       }
     }
     return pCifradas;
-
   },
-
-  decode: (offset, string) => {
+  decode (offset, string) {
 
     let pCifrada = "";
     let pCifradas = "";
@@ -56,18 +54,17 @@ window.cipher = {
           pCifradas += pCifrada + String.fromCharCode(((arreglo[i].charCodeAt(0)) - pos - offset) % 26 + pos);
         }
       }
-
-
-
     }
     return pCifradas;
-
   },
+  createCipherWithOffset: (offset)=>{
 
-
-
-
+    
+    return {
+      encode(string){return cipher.encode(offset,string)},
+      decode(string){return cipher.decode(offset,string)}
+      
+    }
+  }
 
 };
-
-
