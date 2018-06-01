@@ -14,12 +14,8 @@ body{
 }
 
 .contenedor {
-
-    box-shadow: 2px 2px 10px #666;          /* Sombra normal */
-
-
-
-	width: 70%;
+  box-shadow: 2px 2px 10px #666;          /* Sombra normal */
+  width: 70%;
   margin: 2% 15%;
   text-align:center; 
   background:#d1cbc4;
@@ -61,10 +57,7 @@ div label {
 
 
 textarea{
-	width: 70%;
-
-
-
+	width:90%;
 	border-radius: 5px;
 	box-sizing: border-box;
     color: #333;
@@ -88,7 +81,7 @@ textarea{
 
 
 .input{
-	width:70%;
+	width:90%;
     padding:15px 25px;
     font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	background: #f5f5f5;
