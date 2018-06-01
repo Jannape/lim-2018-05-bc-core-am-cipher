@@ -1,67 +1,182 @@
-.btn {
-    border: none; /* Remove borders */
-    color: white; /* Add a text color */
-    padding: 14px 28px; /* Add some padding */
-    cursor: pointer; /* Add a pointer cursor on mouse-over */
-}
+
 
 body{
-	background-color:#1e3f25;
-	color:#f5f5f5;
-	text-align:center;
+	background-color: #f0f0f0
+  ;
+
+  box-sizing: border-box;
+
+  font-size: 14px;
+  color:#4b4848;
+	 
+	
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 }
-H1{ 
-	color: #e5bf05;
+
+.contenedor {
+
+    box-shadow: 2px 2px 10px #666;          /* Sombra normal */
+
+
+
+	width: 70%;
+  margin: 2% 15%;
+  text-align:center; 
+  background:#d1cbc4;
+	/* background: rgba(0, 0, 0, 0.2); */
+	/*relleno va adentro gracias al box.sixing*/
+	box-sizing: border-box;
+  border-radius: 2px;
+  padding: 0 5px;
 
 }
 
+.bodyInstrucciones{
+	background-color: #00bfa5;
+  box-sizing: border-box;
+  font-size: 14px;
+  color:#075e54;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+.contenedorInstrucciones {
+box-shadow: 5px 2px 5px #24b9b9;          /* Sombra normal */
+width: 50%;
+margin:auto;
+text-align:center; 
+background:#ebe9e7;
+font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+
+box-sizing: border-box;
+border-radius: 10px;
+padding: 0 5px;
+}
+.parrafo {
+	text-align:left;
+	margin: 4% 4%;
+}
+
+div label {
+  text-align:left;
+}
+
+
 textarea{
-    border-radius: 5px;
+	width: 70%;
+
+
+
+	border-radius: 5px;
+	box-sizing: border-box;
     color: #333;
     font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
     background: #f5f5f5;
     border:none;
-    font-size: 14px;
-    width:270px;
-    padding:15px 25px;
+    font-size: 20px;
+    padding: 15px 25px;
     margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
+	max-width: 900px;
+	
+}
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px; 
+    cursor: pointer;
 }
 
+
+
 .input{
-	width:270px;
+	width:70%;
     padding:15px 25px;
     font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	background: #f5f5f5;
 	border:none;
 	border-radius: 5px;
 	color: #333;
-	font-size: 14px;
+	font-size: 20px;
 	margin-top:15px;
+	box-sizing: border-box;
+	cursor: pointer;
 }
 
+.title {
+	background-color:#24b9b9;
+	border-radius: 50px;
 
-.loginbutton{
-	background-color:#ffdd00;
-	border-radius:5px/5px;
-	-webkit-border-radius:5px/5px;
-	-moz-border-radius:5px/5px;
-	color:#333;
+	color:#ecf1ea;
 	display:inline-block;
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	font-size:18px;
+	font-size:30px;
 	font-weight:bold;
-	width:160px;
+	width: 90%;
 	text-align:center;
 	line-height:50px;
 	text-decoration:none;
-	height:50px;
+	height:100px;
 	margin-top:20px;
-	margin-bottom:20px;
+	margin-bottom:5px;
 	border:none;
 	outline:0;
-	cursor: pointer;
+	
+}
+.fabwpp{
+	color:#66a80f;
+	font-size:35px;
+}
+.loginbutton{
+	background-color:#66a80f;
+	border-radius: 15px;
+	
+	color:#f1f3f0;
+	display:inline-block;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	width: 20%;
+	 text-align:center; 
+
+	line-height:25px;
+	text-decoration:none;
+	height: 50px;
+	margin-top:15px;
+	margin-bottom:5px;
+	border:none;
+	outline:0;
+	cursor: pointer;  
+
+}
+.offset {
+	background-color:#66a80f;
+	border-radius: 5px;
+	
+	
+	display:inline-block;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	width: 20%;
+	 text-align:center; 
+
+	line-height:25px;
+	text-decoration:none;
+	height: 50px;
+	margin-top:15px;
+	margin-bottom:5px;
+	border:none;
+	outline:0;
+	cursor: pointer;  
+	
+
+	
+background: #f5f5f5;
+border:none;
+
+color: #333;
+
+cursor: pointer;
+
 }
 
 .loginbutton:active {
@@ -70,5 +185,23 @@ textarea{
 }
 
 .loginbutton:hover{
-	background-color:#e5bf05;
+	background-color:#25d366 ;
+  ;
 }
+#respuesta{
+
+	background-color: #e9dede;
+}
+
+/* @media screen and (max-width:800px){
+  body {
+    background: #24b9b9;
+  }
+}
+@media screen and (max-width:300px){
+  .loginbutton{
+    background : #075e54
+    ;
+  }
+} */
+

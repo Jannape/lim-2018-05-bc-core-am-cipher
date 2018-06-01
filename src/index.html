@@ -1,39 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <title>Chat Seguro</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="img/favicon.ico" sizes="16x16">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no,
+     initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+  <title>Cipher</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/favicon.ico" sizes="16x16">
+
+  <!-- cuando el usuario visita este sitio -->
+  <!-- zooom /pantalla escalable desde un celular el usuario puede desplzar la pagina hacia arriba o hacia abajo -->
 </head>
 
 <body>
-    <h1>
-        <i class="fas fa-comments"></i> CHATEA SEGURO
-        <i class="fas fa-lock"></i>
-    </h1>
+  <div class="contenedor">
+    <div id="cabecera"></div>
 
-    <label> <i class="fas fa-pencil-alt"></i> MENSAJE</label>
-    <br>
-    <textarea class="input" id="mensaje" placeholder="Escriba su mensaje"></textarea>
-    <br>
-    <label><i class="fas fa-key"></i> ESPACIOS</label>
-    <br>
-    <input class="input" id="offset" placeholder="Escriba el nùmero de espacios a correr">
-    <div id="root">
-        <input class="loginbutton" id="boton" value="Cifrar" type="submit">
-        <input class="loginbutton" id="boton2" value="Descifrar" type="submit">
+    <div>
+      <br>
+
+      <h1 id="h1">
+        <i class="fab fa-whatsapp fabwpp"></i>
+        WhatsApp Cipher
+      </h1>
+
+
     </div>
-    <textare>
-        <i class="fas fa-envelope"></i> RESULTADO </textare>
+    <div class="textareaMsj">
+      <label class="label">
+        <i class="fas fa-pencil-alt"></i> Mensaje sin Cifrar</label>
+      <br>
+      <textarea class="input" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+      <br>
+    </div>
+    <input type="number" class="offset" id="offset" placeholder="1,2,3">
     <br>
-    <textarea id="respuesta"></textarea>
-
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+    <div>
+      <input class="loginbutton" id="boton" value="Cifrar" type="submit">
+      <input class="loginbutton" id="boton2" value="Descifrar" type="submit">
+    </div>
+    <br>
+    <div>
+      <i class="fas fa-envelope"></i> Mensaje Cifrado
+      <br>
+      <textarea id="respuesta"></textarea>
+    </div>
+    <div>
+      <a href="instrucciones.html">¿Necesitas ayuda para comenzar?</a>
+      <br>
+    </div>
+    <br>
+  </div>
 </body>
-
+<script src="cipher.js"></script>
+<script src="index.js"></script>
 </html>
