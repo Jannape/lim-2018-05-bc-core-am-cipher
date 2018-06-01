@@ -3,6 +3,7 @@
 body{
 	background-color: #f0f0f0
   ;
+  width: 100%;
 
   box-sizing: border-box;
 
@@ -15,8 +16,8 @@ body{
 
 .contenedor {
   box-shadow: 2px 2px 10px #666;          /* Sombra normal */
-  width: 70%;
-  margin: 2% 15%;
+  width: 90%;
+  margin: 2% 3%;
   text-align:center; 
   background:#d1cbc4;
 	/* background: rgba(0, 0, 0, 0.2); */
@@ -36,7 +37,7 @@ body{
 }
 .contenedorInstrucciones {
 box-shadow: 5px 2px 5px #24b9b9;          /* Sombra normal */
-width: 50%;
+width: 90%;
 margin:auto;
 text-align:center; 
 background:#ebe9e7;
