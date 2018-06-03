@@ -17,13 +17,19 @@ Testeada en todos los casos.!
 
 #Documentación
 ## Pasos de su Implementación
-1)Planificación de las etapas para la construcción de la App ![trelo](src/img/trello.png)
-2)Diseño del Mockups de la App![diseño1_marvell](src/img/marvelapp.png)
-3)Diseño del mockups en Marvelapp ![diseño2_marvell](src/img/marvelapp2.png)
-3)Construcción de Algoritmo con un flujograma![flujograma](src/img/diagrama_algoritmo.png)
-4)Construcción de Diagrama de flujo de la interacción del usuario con la App ![diagramaFlujo](src/img/diagramauser.png)
+1)Planificación de las etapas para la construcción de la App 
+![trelo](src/img/trello.png)
+2)Diseño del Mockups de la App
+![diseño1_marvell](src/img/marvelapp.png)
+3)Diseño del mockups en Marvelapp 
+![diseño2_marvell](src/img/marvelapp2.png)
+3)Construcción de Algoritmo con un flujograma
+![flujograma](src/img/diagrama_algoritmo.png)
+4)Construcción de Diagrama de flujo de la interacción del usuario con la App
+ ![diagramaFlujo](src/img/diagramauser.png)
 5)Cambios del diseño según experiencia de Usuarios 
-6)Aprobación de los test.[Resultado de Testeo](src/img/testeo.png)
+6)Aprobación de los test.
+![Resultado de Testeo](src/img/testeo.png)
 
 ##Diseño 
 Esta aplicación usa un diseño minimalista siguiendo la tendencia 2018,con la finalidad
@@ -31,18 +37,16 @@ de ayudar al usuario a concentrarse en los más primordial.
 Asi proporcionando la condiciones necesarias para una buen experiencia de Usuario.
 
 
-## Parte obligatoria
-
 ### Definición del producto
 
-En el `README.md` cuéntanos cómo pensaste en los usuarios al desarrollar tu
-producto y cuál fue tu proceso para definir el producto final a nivel de
-experiencia y de interfaz.
-
 * quiénes son los principales usuarios de producto
+Los principales usuarios de esta dirigida para adolescentes y jovenes.
 * cuáles son los objetivos de estos usuarios en relación con el producto
-* cómo crees que el producto que estás creando les está resolviendo sus
-  problemas
+EL objetivo de estos usuarios es ocultar (Cifrar) el contenido de sus mensajes.
+* cómo crees que el producto que estás creando les está resolviendo sus problemas
+ Definitivamente es la solución a sus problemas, pues cifra y descifra el mensaje siempre
+ y cuando el receptor del mensaje obtenga la clave o número de espacios para decifrar el mensaje.
+ Ofreciendo asi total seguridad en caso de que puedan chekear sus mensaje, cuando deje el WhatsApp abierto.
 
 ### UI
 
