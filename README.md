@@ -12,7 +12,9 @@ Vive feliz , vive tranquilo con WhatsApp Cipher, la tranquilidad de Wasapear!!!!
 Esta App  hecha en pensando en el usuario,con una interfaz intuitiva,sencilla y adaptable a cualquier tipo de celular.
 Tiene una guía de ayuda al usuario en su parte final.
 Su finalidad principal es darle seguridad a tus mensajes con el Cifrado Cesar
-Esta hecha con HTML+ CSS + JavaScript
+Esta hecha con HTML+ CSS + JavaScript 
+Testeada en todos los casos.![Resultado de Testeo](src/img/testeo.png)
+
 
 ## Pasos de su Implementación
 1)Planificación de las etapas para la construcción de la App ![trelo](img/imagen1.png)
