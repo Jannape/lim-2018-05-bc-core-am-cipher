@@ -13,17 +13,17 @@ Esta App  hecha en pensando en el usuario,con una interfaz intuitiva,sencilla y 
 Tiene una guía de ayuda al usuario en su parte final.
 Su finalidad principal es darle seguridad a tus mensajes con el Cifrado Cesar
 Esta hecha con HTML+ CSS + JavaScript 
-Testeada en todos los casos.![Resultado de Testeo](src/img/testeo.png)
+Testeada en todos los casos.!
 
-
+#Documentación
 ## Pasos de su Implementación
-1)Planificación de las etapas para la construcción de la App ![trelo](img/imagen1.png)
-2)Diseño del Mockups de la App![diseño1_zigma_mockup](img/imagen1.png)
-3)Diseño del moclup en Marvell ![mockup_marvell](img/imagen1.png)
-3)Construcción de Algoritmo con un flujograma![flujograma](img/imagen1.png)
-4)Construcción de Diagrama de flujo de la interacción del usuario con la App ![diagramaFlujo](img/imagen1.png)
-5)Cambios del diseño según experiencia de Usuarios ![diseño2](img/imagen1.png)
-6)Aprobación de los test.
+1)Planificación de las etapas para la construcción de la App ![trelo](src/img/trello.png)
+2)Diseño del Mockups de la App![diseño1_marvell](src/img/marvelapp.png)
+3)Diseño del mockups en Marvelapp ![diseño2_marvell](src/img/marvelapp2.png)
+3)Construcción de Algoritmo con un flujograma![flujograma](src/img/diagrama_algoritmo.png)
+4)Construcción de Diagrama de flujo de la interacción del usuario con la App ![diagramaFlujo](src/img/diagramauser.png)
+5)Cambios del diseño según experiencia de Usuarios 
+6)Aprobación de los test.[Resultado de Testeo](src/img/testeo.png)
 
 ##Diseño 
 Esta aplicación usa un diseño minimalista siguiendo la tendencia 2018,con la finalidad
