@@ -5,7 +5,7 @@ Envía mensajes en clave gracias a WhatsApp Cipher.
 Esta novedosa aplicación cifra tus mensajes de manera súper fácil.
 ¡Shhhh!Solo dale la clave a la persona que quieres que lo descifre. 
 Vive feliz , vive tranquilo con WhatsApp Cipher, la tranquilidad de Wasapear!!!!
-![WhatsApp Cipher](img/interfazprincipal.png)
+![WhatsApp Cipher](interfazprincipal.png)
 
 
 #Descripción
