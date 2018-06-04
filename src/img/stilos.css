@@ -1,0 +1,89 @@
+.contenedor {
+    width: 100%;
+    background-color: #075e54;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+    box-sizing: border-box; 
+    max-width: 1000px;
+    border-radius: 5px;
+ 
+   
+ 
+}
+body {
+    background:#ece5dd;
+    height: 50%;
+    max-height: 1000px;
+}
+
+h1 {
+    
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
+.cuerpo {
+    width: 100%;
+    margin-right: auto; 
+    margin-left: auto;
+    border-radius: 5px;
+    margin-top: 3%; 
+    padding: 15px 45px;
+    box-sizing: border-box; 
+    background: #dcf8c6;
+    text-align:center;
+  /* color: #333;
+  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+
+  border:none;
+  font-size: 20px; */
+	
+}
+.textarea1 {
+   
+    width: 100%;
+    border-radius: 5px;
+   
+    padding: 35px 20px;
+    background: #ffffff;
+    box-sizing: border-box; 
+
+}
+input {
+    border-radius: 2px;
+    padding: 15px 5px;
+    margin-top:3%;
+    box-sizing: border-box; 
+
+
+	
+ 
+
+
+
+}
+ .textarea2 {
+    width: 100%;
+    margin-top: 3%;
+    border-radius: 5px;
+   
+    padding: 35px 20px;
+    background: #ffffff;
+    box-sizing: border-box; 
+
+} 
+
+
+.botones {
+    width: 20%;
+    margin-top: 3%;
+    padding:10px 10px;
+    border-radius: 15px;
+    background:#25d366;
+
+    
+}
